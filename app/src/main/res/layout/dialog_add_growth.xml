@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/add_growth_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Growth Data"
+            android:textSize="20sp"
+            android:fontFamily="@font/lexend"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/Select_Date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Select Date"
+            android:textSize="20sp"
+            android:fontFamily="@font/lexend"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_growth_title" />
+
+        <Button
+            android:id="@+id/datePickerBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="JAN / 01 / 2025"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            style="?android:spinnerStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Select_Date_text" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/lexend"
+            android:hint="Farm Size"
+            android:inputType="number"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/datePickerBtn" />
+
+        <TextView
+            android:id="@+id/sample_size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/lexend"
+            android:text="Sample Size"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextNumber" />
+
+        <TextView
+            android:id="@+id/sample_size_label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:fontFamily="@font/lexend"
+            android:text="Farm Size"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.057"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/sampleSizeContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sample_size_label">
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/lexend"
+                android:hint="Number of Chickens to weigh"
+                android:inputType="number"
+                android:padding="12dp" />
+
+            <Button
+                android:id="@+id/generateSamplesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="end|center_vertical"
+                android:backgroundTint="@color/neon_green"
+                android:text="Enter"
+                android:textColor="@android:color/white"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/sampleSizeLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/sampleSizeContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/ApplyChangesBTN"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/neon_green"
+            android:text="Apply Changes"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sampleSizeLayout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

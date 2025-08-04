@@ -1,0 +1,420 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FarmingManagemengSystem(Partial)</string>
+    <string name="login_here_txt">LOGIN HERE</string>
+    <string name="email_hint">EMAIL</string>
+    <string name="password_hint">PASSWORD</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in_btn">SIGN IN</string>
+    <string name="don_t_have_an_account_txt">Don\'t have an Account?</string>
+    <string name="register_here_btn_txt">REGISTER HERE</string>
+
+    <string-array name="countries_array">
+        <item>Select Country</item>
+        <item>Philippines</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+        <item>Indonesia</item>
+    </string-array>
+
+    <string name="health_stat">
+        Health Status
+    </string>
+
+    <string name="mortality_r">
+        Mortality Rate
+    </string>
+
+    <string name="growth_prog">
+        Growth Progress
+    </string>
+
+    <string name="farm_1">
+    Farm 1
+    </string>
+
+    <string name="farm_2">
+        Farm 2
+    </string>
+
+    <string name="farm_3">
+        Farm 3
+    </string>
+
+    <string name="tracking">
+        TRACKING
+    </string>
+
+    <string name="growth_moni">
+        Growth Monitor
+    </string>
+
+    <string name="average_wei">
+        Average Weight
+    </string>
+
+    <string name="farm_1_2_3_">
+        FARM 1: 2.3 kg
+    </string>
+
+    <string name="add_growth_">
+        + Add Growth Data
+    </string>
+
+    <string name="days">
+        1-14 Days
+    </string>
+
+    <string name="days2">
+        15-28 Days
+    </string>
+
+    <string name="days3">
+        29-45 Days
+    </string>
+
+    <string name="products">
+        Products
+    </string>
+
+    <string name="all">
+        All
+    </string>
+
+    <string name="feeds">
+        Feeds
+    </string>
+
+    <string name="vet">
+        Vet
+    </string>
+
+    <string name="search">
+        Search
+    </string>
+
+    <string name="more_info">
+        More Info
+    </string>
+
+    <string name="average_weight">
+    Average weight
+    </string>
+
+    <string name="farm_1_100_">
+        FARM NAME: Farm 1
+    </string>
+
+    <string name="farm_2_200_">
+        FARM NAME: Farm 2
+    </string>
+
+    <string name="remarks_you">
+        Remarks: Your average weight is below the ideal
+    </string>
+
+    <string name="growth">
+        Growth
+    </string>
+
+    <string name="mortality">
+        Mortality
+    </string>
+
+    <string name="add_information">
+        Add Information
+    </string>
+
+    <string name="farm_size">
+        Farm Size
+    </string>
+
+    <string name="sample_size">
+        Sample Size
+    </string>
+
+    <string name="sample_1">
+        Sample 1
+    </string>
+
+    <string name="sample_2">
+        Sample 2
+    </string>
+
+    <string name="apply_changes">
+        APPLY CHANGES
+    </string>
+
+    <string name="size">
+        Size
+    </string>
+
+    <string name="days_old">
+        Days old
+    </string>
+
+    <string name="average_weight1">
+    Average weight
+    </string>
+
+    <string name="target">
+        Target
+    </string>
+
+    <string name="some_id1">
+    100
+    </string>
+
+    <string name="some_id2">
+        10
+    </string>
+
+    <string name="some_id3">
+        2.5/3.0 Kg
+    </string>
+
+    <string name="some_id4">
+        -5.4%
+    </string>
+
+    <string name="feed_report">
+        Feed Reports
+    </string>
+
+    <string name="farm_name_f">
+        Farm Name: Farm 1
+    </string>
+
+    <string name="add_feeding">
+        + Add Feeding Data
+    </string>
+
+    <string name="day">
+        Day
+    </string>
+
+    <string name="current_feed">
+        Current Feed
+    </string>
+
+    <string name="today_s_amo">
+    Todays Amount
+    </string>
+
+    <string name="dayX">
+    01/45
+    </string>
+
+    <string name="starter">
+        Starter
+    </string>
+
+    <string name="kg">
+        35kg
+    </string>
+
+    <string name="kg1">
+        150kg
+    </string>
+
+    <string name="kg2">
+        100kg
+    </string>
+
+    <string name="kg3">
+        50kg
+    </string>
+
+    <string name="kg4">
+        0kg
+    </string>
+
+    <string name="date1">
+        Jul 1
+    </string>
+
+    <string name="date2">
+        Jul 5
+    </string>
+
+    <string name="date3">
+        Jul 10
+    </string>
+
+    <string name="date4">
+        Jul 15
+    </string>
+
+    <string name="total_feeds">
+         Total Feeds
+    </string>
+
+    <string name="kg5">
+        200kg
+    </string>
+
+    <string name="per_chicken">
+        Per Chicken
+    </string>
+
+    <string name="kg6">
+        0.35kg
+    </string>
+
+    <string name="enter_feed_">
+        Enter Feed Type
+    </string>
+
+    <string name="enter_amoun">
+        Enter amount  in Kilograms
+    </string>
+
+    <string name="mortality_a">
+          Mortality and Decease Reports
+    </string>
+
+    <string name="add_report">
+          + Add Report
+    </string>
+
+    <string name="farm_name_2">
+        Farm Name: Farm 1
+    </string>
+
+    <string name="current_feed1">
+        Current Feed
+    </string>
+
+    <string name="starter1">
+        Starter
+    </string>
+
+    <string name="total_chickens">
+        Total Chickens
+    </string>
+
+    <string name="mortality_rate">
+      Mortality Rate
+    </string>
+
+    <string name="some_id6">
+        100
+    </string>
+
+    <string name="some_id7">
+        0%
+    </string>
+
+    <string name="date5">
+        Date
+    </string>
+
+    <string name="sick">
+        Sick
+    </string>
+
+    <string name="death">
+         Death
+    </string>
+
+    <string name="remarks">
+        Remarks
+    </string>
+
+    <string name="add_report2">
+        Add Report
+    </string>
+
+    <string name="select_date">
+        Select Date
+    </string>
+
+    <string name="no_of_death">
+         No. of Deaths
+    </string>
+
+    <string name="no_of_sick_">
+        No. of Sick Chickens
+    </string>
+
+    <string name="notes_optio">
+        Notes (Optional)
+    </string>
+
+    <string name="news_trends">
+        News and Trends
+    </string>
+
+    <string name="Product_Name">
+        Insert Product Name
+    </string>
+
+    <string name="product_name_expanded">
+        INSERT PRODUCT NAME HERE
+    </string>
+
+    <string name="description">
+        Description
+    </string>
+
+    <string name="product_description">
+        Insert Product Description Here
+    </string>
+
+    <string name="availability">
+        Availability:
+    </string>
+
+    <string name="availability_status">
+        Insert availability status here
+    </string>
+
+    <string name="target_stage">
+        Target Stage:
+    </string>
+
+    <string name="target_stage_desc">
+        Insert Target Stage description here
+    </string>
+
+    <string name="nutrient_profile">
+        Nutrient Profile
+    </string>
+
+    <string name="nutrient_profile_desc">
+        Insert Nutrient Profile Description Here
+    </string>
+
+    <string name="news_description">
+    NEWS : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+    </string>
+
+    <string name="forgot_password_page_txt">FORGOT PASSWORD</string>
+
+    <string name="new_password_hint">New Password</string>
+
+    <string name="confirm_new_password_hint">Confirm New Password</string>
+
+    <string name="change_password_txt_btn">CHANGE PASSWORD</string>
+
+    <string name="back_to_login_txt_btn">Back to Login</string>
+
+    <string name="product_Name">Insert Product Name</string>
+
+    <string name="todo">TODO\n</string>
+
+    <string name="register_your_account_txt">Register your account</string>
+
+    <string name="username_hint">Username</string>
+
+    <string name="sign_up_btn_txt">SIGN UP</string>
+
+    <string name="farm_name">Farm Name: Farm 1</string>
+
+    <string name="add_feeding_data_btn">+ Add Feeding Data</string>
+
+    <string name="Days_Old">Days Old</string>
+
+    <string name="add_growth_data_btn_txt">+ Add Growth Data</string>
+    <string name="animal_tracking_txt">Animal Tracking</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#E8301207</color>
+    <color name="neon_green">#8BC318</color>
+    <color name="teal_ish">#1A807A</color>
+    <color name="green">#5CB66E</color>
+    <color name="health_status">#00BFAE</color> <!-- Teal -->
+    <color name="growth_progress">#1E88E5</color> <!-- Blue -->
+    <color name="mortality_rate">#E53935</color> <!-- Red -->
+</resources>
