@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "77623494937",
+    "project_id": "farmmanagementsystem-85e9d",
+    "storage_bucket": "farmmanagementsystem-85e9d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77623494937:android:4518510bcf4bdb06051d88",
+        "android_client_info": {
+          "package_name": "com.example.farmingmanagemengsystempartial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXLgNby2dIcxwkLddJhXjDn7XDuSh-Wzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

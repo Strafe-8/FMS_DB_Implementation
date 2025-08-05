@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background image -->
+    <item android:drawable="@drawable/chickenfarmimage" />
+
+    <!-- Overlay with a subtle white gradient fade -->
+    <item>
+        <vector
+            xmlns:aapt="http://schemas.android.com/aapt"
+            android:width="436dp"
+            android:height="304dp"
+            android:viewportWidth="436"
+            android:viewportHeight="304">
+            <group>
+                <clip-path android:pathData="M0 0H436V304H0V0Z" />
+                <group
+                    android:translateX="1"
+                    android:translateY="0"
+                    android:pivotX="218"
+                    android:pivotY="152"
+                    android:scaleX="2"
+                    android:scaleY="2"
+                    android:rotation="90">
+                    <path android:pathData="M0 0V304H436V0">
+                        <aapt:attr name="android:fillColor">
+                            <gradient
+                                android:type="linear"
+                                android:startX="0"
+                                android:startY="0"
+                                android:endX="326"
+                                android:endY="0">
+                                <item android:color="#00FFFFFF" android:offset="0" /> <!-- Fully transparent -->
+                                <item android:color="#00FFFFFF" android:offset="0.6" /> <!-- Still transparent -->
+                                <item android:color="#FFFFFFFF" android:offset="0.8" /> <!-- White fade starts -->
+                            </gradient>
+                        </aapt:attr>
+                    </path>
+                </group>
+            </group>
+        </vector>
+    </item>
+</layer-list>
